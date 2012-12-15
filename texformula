@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+set -e
+java -Dfile.encoding=UTF-8 -jar "$(cd "$(dirname "$0")" && pwd)/target/texformula-1.0-SNAPSHOT-jar-with-dependencies.jar"
